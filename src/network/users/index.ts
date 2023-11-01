@@ -8,5 +8,6 @@ function getUserByEmail(req: Request, res: Response){
 }
 
 router.get('/', getUserByEmail)
+router.post('/me', getUserByEmail)
 
 export default router;
